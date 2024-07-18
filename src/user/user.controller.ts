@@ -8,7 +8,7 @@ export class UserController {
   @Get('me')
   getMe(@GetUser('') user: User) { //GetUser is a custom operator 
     return user;
-  }
+  } 
 
   @Patch()
   editUser(){}
